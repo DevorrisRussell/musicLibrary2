@@ -7,13 +7,11 @@
     "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords":[],
-
+  "keywords": [],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DevorrisRussell/musicLibrary2.git"
   },
- 
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -21,6 +19,7 @@
   },
   "homepage": "https://github.com/DevorrisRussell/musicLibrary2#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "nodemon": "^2.0.15"
   }
